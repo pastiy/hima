@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Website Resmi Himpunan Mahasiswa Informatika (HIMAIF)" />
+  <title>HIMAIF — Himpunan Mahasiswa Informatika</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-box">
+      <div class="loader-icon"><i class="fas fa-microchip"></i></div>
+      <span>HIMAIF</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-wrap">
+      <a href="#beranda" class="nav-brand">
+        <div class="brand-ico"><i class="fas fa-microchip"></i></div>
+        <span>HIMAIF</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda"   class="nav-link">Beranda</a></li>
+        <li><a href="#tentang"   class="nav-link">Tentang</a></li>
+        <li><a href="#visi-misi" class="nav-link">Visi & Misi</a></li>
+        <li><a href="#struktur"  class="nav-link">Struktur</a></li>
+        <li><a href="#session"   class="nav-link">Sharing Session</a></li>
+        <li><a href="#medsos"    class="nav-link">Media Sosial</a></li>
+      </ul>
+      <div class="nav-right">
+        <button id="darkBtn" class="ico-btn"><i class="fas fa-moon" id="darkIco"></i></button>
+        <button id="burger" class="burger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="beranda" class="hero">
+    <canvas id="canvas"></canvas>
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="hero-body reveal">
+      <div class="hero-badge"><i class="fas fa-circle-dot"></i> Organisasi Resmi Kampus</div>
+      <div class="hero-logo">
+        <!-- Ganti dengan <img src="logo.png" alt="Logo HIMAIF"> -->
+        <i class="fas fa-microchip"></i>
+      </div>
+      <h1>Himpunan Mahasiswa<br><span class="grad">Informatika</span></h1>
+      <p class="tagline">Berinovasi · Berkolaborasi · Berprestasi</p>
+      <p class="hero-desc">Wadah tumbuh dan berkembang mahasiswa informatika menuju generasi digital yang unggul dan berdaya saing.</p>
+      <div class="hero-btns">
+        <a href="#session" class="btn btn-primary"><i class="fas fa-link"></i> Akses Kegiatan</a>
+        <a href="#tentang" class="btn btn-glass"><i class="fas fa-circle-info"></i> Tentang Kami</a>
+      </div>
+    </div>
+    <div class="scroll-hint"><div class="scroll-line"></div><span>Scroll</span></div>
+  </section>
+
+  <!-- TENTANG KAMI -->
+  <section id="tentang" class="section">
+    <div class="container">
+      <div class="sec-label reveal"><i class="fas fa-circle-info"></i> Tentang Kami</div>
+      <h2 class="sec-title reveal">Mengenal <span class="grad">HIMAIF</span></h2>
+      <div class="about-grid">
+        <div class="about-img-col reveal">
+          <!-- Ganti dengan <img src="foto-organisasi.jpg"> -->
+          <div class="img-ph tall"><i class="fas fa-users"></i><span>Foto Organisasi</span></div>
+          <div class="about-badge">
+            <i class="fas fa-award"></i>
+            <div><strong>Organisasi Terbaik</strong><span>Tahun Akademik 2024/2025</span></div>
+          </div>
+        </div>
+        <div class="about-text-col reveal">
+          <p>Himpunan Mahasiswa Informatika <strong>(HIMAIF)</strong> adalah organisasi kemahasiswaan resmi yang bernaung di bawah Program Studi Informatika.</p>
+          <p>HIMAIF hadir sebagai ruang tumbuh bagi seluruh mahasiswa informatika — menjadi jembatan antara dunia akademis dan industri teknologi, serta mencetak generasi yang unggul, kreatif, dan berdaya saing global.</p>
+          <div class="tags">
+            <span class="tag"><i class="fas fa-code"></i> Teknologi</span>
+            <span class="tag"><i class="fas fa-lightbulb"></i> Inovasi</span>
+            <span class="tag"><i class="fas fa-handshake"></i> Kolaborasi</span>
+            <span class="tag"><i class="fas fa-trophy"></i> Prestasi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISI MISI -->
+  <section id="visi-misi" class="section sec-dark">
+    <div class="container">
+      <div class="sec-label reveal"><i class="fas fa-bullseye"></i> Arah Organisasi</div>
+      <h2 class="sec-title reveal">Visi & <span class="grad">Misi</span></h2>
+      <p class="sec-sub reveal">Landasan filosofi dan arah gerak HIMAIF dalam membentuk generasi unggul</p>
+      <div class="vm-grid">
+        <div class="vm-card vm-visi reveal">
+          <div class="vm-icon"><i class="fas fa-eye"></i></div>
+          <h3>Visi</h3>
+          <p>Menjadi himpunan mahasiswa informatika yang unggul, inovatif, dan berdaya saing dalam pengembangan ilmu pengetahuan, teknologi, serta karakter mahasiswa yang berintegritas.</p>
+          <div class="vm-line"></div>
+        </div>
+        <div class="vm-misi-list">
+          <div class="vm-card vm-misi reveal" style="--d:.1s">
+            <div class="vm-ico-sm"><i class="fas fa-graduation-cap"></i></div>
+            <div><h4>Akademik Unggul</h4><p>Meningkatkan kualitas akademik melalui program pembelajaran berbasis teknologi.</p></div>
+          </div>
+          <div class="vm-card vm-misi reveal" style="--d:.2s">
+            <div class="vm-ico-sm"><i class="fas fa-network-wired"></i></div>
+            <div><h4>Jaringan & Kolaborasi</h4><p>Membangun relasi kuat antar mahasiswa, alumni, dan industri teknologi.</p></div>
+          </div>
+          <div class="vm-card vm-misi reveal" style="--d:.3s">
+            <div class="vm-ico-sm"><i class="fas fa-rocket"></i></div>
+            <div><h4>Inovasi & Kreativitas</h4><p>Mendorong ide-ide inovatif melalui kompetisi, hackathon, dan proyek teknologi.</p></div>
+          </div>
+          <div class="vm-card vm-misi reveal" style="--d:.4s">
+            <div class="vm-ico-sm"><i class="fas fa-star"></i></div>
+            <div><h4>Karakter & Integritas</h4><p>Membentuk mahasiswa berkarakter kuat sebagai calon pemimpin masa depan.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRUKTUR ORGANISASI -->
+  <section id="struktur" class="section">
+    <div class="container">
+      <div class="sec-label reveal"><i class="fas fa-sitemap"></i> Kepengurusan</div>
+      <h2 class="sec-title reveal">Struktur <span class="grad">Organisasi</span></h2>
+      <p class="sec-sub reveal">Kepengurusan HIMAIF Periode 2024/2025</p>
+
+      <!-- Pengurus Inti -->
+      <div class="tier-label reveal">Pengurus Inti</div>
+      <div class="org-grid org-top">
+        <div class="org-card reveal" style="--d:.05s">
+          <div class="org-photo"><i class="fas fa-user"></i></div>
+          <span class="org-role">Ketua</span>
+          <h4>Nama Ketua</h4>
+          <span class="org-nim">NIM: 12345001</span>
+        </div>
+        <div class="org-card reveal" style="--d:.1s">
+          <div class="org-photo"><i class="fas fa-user"></i></div>
+          <span class="org-role">Wakil Ketua</span>
+          <h4>Nama Wakil</h4>
+          <span class="org-nim">NIM: 12345002</span>
+        </div>
+        <div class="org-card reveal" style="--d:.15s">
+          <div class="org-photo"><i class="fas fa-user"></i></div>
+          <span class="org-role">Sekretaris</span>
+          <h4>Nama Sekretaris</h4>
+          <span class="org-nim">NIM: 12345003</span>
+        </div>
+        <div class="org-card reveal" style="--d:.2s">
+          <div class="org-photo"><i class="fas fa-user"></i></div>
+          <span class="org-role">Bendahara</span>
+          <h4>Nama Bendahara</h4>
+          <span class="org-nim">NIM: 12345004</span>
+        </div>
+      </div>
+
+      <!-- Divisi -->
+      <div class="tier-label reveal">Kepala Divisi</div>
+      <div class="org-grid org-div">
+        <div class="org-card org-card-div reveal" style="--d:.05s">
+          <div class="div-ico"><i class="fas fa-bullhorn"></i></div>
+          <div class="org-photo org-photo-sm"><i class="fas fa-user"></i></div>
+          <span class="org-role">Humas</span>
+          <h4>Nama Kadiv</h4>
+        </div>
+        <div class="org-card org-card-div reveal" style="--d:.1s">
+          <div class="div-ico"><i class="fas fa-photo-film"></i></div>
+          <div class="org-photo org-photo-sm"><i class="fas fa-user"></i></div>
+          <span class="org-role">Media</span>
+          <h4>Nama Kadiv</h4>
+        </div>
+        <div class="org-card org-card-div reveal" style="--d:.15s">
+          <div class="div-ico"><i class="fas fa-book-open"></i></div>
+          <div class="org-photo org-photo-sm"><i class="fas fa-user"></i></div>
+          <span class="org-role">Akademik</span>
+          <h4>Nama Kadiv</h4>
+        </div>
+        <div class="org-card org-card-div reveal" style="--d:.2s">
+          <div class="div-ico"><i class="fas fa-people-group"></i></div>
+          <div class="org-photo org-photo-sm"><i class="fas fa-user"></i></div>
+          <span class="org-role">PSDM</span>
+          <h4>Nama Kadiv</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARING SESSION / LINK PENTING -->
+  <section id="session" class="section sec-dark">
+    <div class="container">
+      <div class="sec-label reveal"><i class="fas fa-share-nodes"></i> Proker & Kegiatan</div>
+      <h2 class="sec-title reveal">Sharing <span class="grad">Session</span></h2>
+      <p class="sec-sub reveal">Akses cepat semua kebutuhan kegiatan dan program kerja HIMAIF</p>
+      <div class="link-grid">
+        <a href="LINK_ZOOM_DISINI" target="_blank" class="link-card reveal" style="--d:.05s">
+          <div class="link-ico" style="--c:#6366F1"><i class="fas fa-video"></i></div>
+          <div class="link-info">
+            <h4>Join Zoom</h4>
+            <p>Link meeting kegiatan</p>
+          </div>
+          <i class="fas fa-arrow-right link-arr"></i>
+        </a>
+        <a href="LINK_ABSENSI_DISINI" target="_blank" class="link-card reveal" style="--d:.1s">
+          <div class="link-ico" style="--c:#10B981"><i class="fas fa-clipboard-check"></i></div>
+          <div class="link-info">
+            <h4>Absensi</h4>
+            <p>Form absensi kegiatan</p>
+          </div>
+          <i class="fas fa-arrow-right link-arr"></i>
+        </a>
+        <a href="LINK_REGISTRASI_DISINI" target="_blank" class="link-card reveal" style="--d:.15s">
+          <div class="link-ico" style="--c:#0A66FF"><i class="fas fa-user-plus"></i></div>
+          <div class="link-info">
+            <h4>Registrasi</h4>
+            <p>Daftar kegiatan & anggota</p>
+          </div>
+          <i class="fas fa-arrow-right link-arr"></i>
+        </a>
+        <a href="LINK_BACKGROUND_ZOOM_DISINI" target="_blank" class="link-card reveal" style="--d:.2s">
+          <div class="link-ico" style="--c:#F59E0B"><i class="fas fa-image"></i></div>
+          <div class="link-info">
+            <h4>Background Zoom</h4>
+            <p>Download background resmi</p>
+          </div>
+          <i class="fas fa-arrow-right link-arr"></i>
+        </a>
+        <a href="LINK_SERTIFIKAT_DISINI" target="_blank" class="link-card reveal" style="--d:.25s">
+          <div class="link-ico" style="--c:#8B5CF6"><i class="fas fa-certificate"></i></div>
+          <div class="link-info">
+            <h4>Sertifikat</h4>
+            <p>Download sertifikat kegiatan</p>
+          </div>
+          <i class="fas fa-arrow-right link-arr"></i>
+        </a>
+        <a href="LINK_MATERI_DISINI" target="_blank" class="link-card reveal" style="--d:.3s">
+          <div class="link-ico" style="--c:#EF4444"><i class="fas fa-book-open"></i></div>
+          <div class="link-info">
+            <h4>Materi & Modul</h4>
+            <p>Akses bahan ajar & materi</p>
+          </div>
+          <i class="fas fa-arrow-right link-arr"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA SOSIAL -->
+  <section id="medsos" class="section">
+    <div class="container">
+      <div class="sec-label reveal"><i class="fas fa-satellite-dish"></i> Ikuti Kami</div>
+      <h2 class="sec-title reveal">Media <span class="grad">Sosial</span></h2>
+      <p class="sec-sub reveal">Tetap terhubung dan dapatkan informasi terbaru dari HIMAIF</p>
+      <div class="social-grid">
+        <a href="LINK_INSTAGRAM" target="_blank" class="soc-card soc-ig reveal" style="--d:.05s">
+          <div class="soc-left">
+            <div class="soc-ico"><i class="fab fa-instagram"></i></div>
+            <div>
+              <span class="soc-name">Instagram</span>
+              <span class="soc-handle">@himaif_official</span>
+            </div>
+          </div>
+          <span class="soc-follow">Follow <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <a href="LINK_TIKTOK" target="_blank" class="soc-card soc-tt reveal" style="--d:.1s">
+          <div class="soc-left">
+            <div class="soc-ico"><i class="fab fa-tiktok"></i></div>
+            <div>
+              <span class="soc-name">TikTok</span>
+              <span class="soc-handle">@himaif.official</span>
+            </div>
+          </div>
+          <span class="soc-follow">Follow <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <a href="LINK_YOUTUBE" target="_blank" class="soc-card soc-yt reveal" style="--d:.15s">
+          <div class="soc-left">
+            <div class="soc-ico"><i class="fab fa-youtube"></i></div>
+            <div>
+              <span class="soc-name">YouTube</span>
+              <span class="soc-handle">HIMAIF Official</span>
+            </div>
+          </div>
+          <span class="soc-follow">Subscribe <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <a href="https://wa.me/NOMOR_WA" target="_blank" class="soc-card soc-wa reveal" style="--d:.2s">
+          <div class="soc-left">
+            <div class="soc-ico"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <span class="soc-name">WhatsApp</span>
+              <span class="soc-handle">+62 812-3456-7890</span>
+            </div>
+          </div>
+          <span class="soc-follow">Chat <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <a href="mailto:himaif@kampus.ac.id" class="soc-card soc-em reveal" style="--d:.25s">
+          <div class="soc-left">
+            <div class="soc-ico"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="soc-name">Email</span>
+              <span class="soc-handle">himaif@kampus.ac.id</span>
+            </div>
+          </div>
+          <span class="soc-follow">Kirim <i class="fas fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="brand-ico"><i class="fas fa-microchip"></i></div>
+        <span>HIMAIF</span>
+      </div>
+      <p>Himpunan Mahasiswa Informatika — Berinovasi, Berkolaborasi, Berprestasi.</p>
+      <div class="footer-socials">
+        <a href="LINK_INSTAGRAM" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="LINK_TIKTOK" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="LINK_YOUTUBE" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/NOMOR_WA" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:himaif@kampus.ac.id"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="copy">&copy; 2025 HIMAIF. All rights reserved. Made with <i class="fas fa-heart" style="color:#ef4444"></i> by Tim Media HIMAIF</p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
